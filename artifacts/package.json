@@ -1,0 +1,15 @@
+{
+  "name": "certificate-recruitment-contract",
+  "version": "1.0.0",
+  "description": "Blockchain certificate verification and recruitment smart contract",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "dotenv": "^17.2.3",
+    "hardhat": "^2.27.1"
+  }
+}
